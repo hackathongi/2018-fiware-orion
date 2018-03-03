@@ -36,7 +36,7 @@ EOF
 ### Per subscriure's als canvis d'atribut d'una entitat
 
 ```bash
-curl -v $ORION_SERVER:$ORION_PORT/v2/subscriptions -s -S --header 'Content-Type: application/json' \
+curl -v http://84.89.60.4/v2/subscriptions -s -S --header 'Content-Type: application/json' \
     -d @- <<EOF
 {
   "description": "Subscripció de so per activar la cuna",
