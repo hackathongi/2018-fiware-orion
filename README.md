@@ -33,6 +33,12 @@ $ curl http://84.89.60.4/v2/entities/bressol/attrs -s -S --header 'Content-Type:
 EOF
 ```
 
+amb una sola línea:
+
+```bash
+$ curl http://84.89.60.4/v2/entities/bressol/attrs -s -S --header 'Content-Type: application/json' -X PATCH -d "{\"estat\": {\"value\": \"off\",\"type\": \"String\"}}"
+```
+
 ### Per subscriure's als canvis d'atribut d'una entitat
 
 ```bash
