@@ -3,7 +3,7 @@ Cervell central del #hackathonGi 2018 basat en en [Fiware Context Broker](https:
 
 ## Ús
 
-Es pot aixecar una instàncai del server fiware orion amb docker:
+Es pot aixecar una instància de fiware orion amb docker:
 
 ```bash
 $ docker-compose up
